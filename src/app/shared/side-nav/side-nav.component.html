@@ -1,0 +1,10 @@
+<mat-icon class='menu-icon' (click)="sideNav.toggle()">menu</mat-icon>
+<mat-sidenav-container class="side-nav-container">
+  <mat-sidenav #sideNav mode="side" opened="false">
+    <mat-nav-list class='nav-list'>
+      <a mat-list-item [routerLink]='home'>Home</a>
+      <a mat-list-item [routerLink]='about'>About</a>
+      <a mat-list-item [routerLink]='contact'>Contact Us</a>
+    </mat-nav-list>
+  </mat-sidenav>
+</mat-sidenav-container>
