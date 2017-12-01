@@ -3,7 +3,6 @@ import { RouterModule, Route } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MatIconModule, MatSidenavModule, MatListModule } from '@angular/material';
-import { Parallax, ParallaxConfig } from 'ngx-parallax';
 
 import { AppComponent } from './app.component';
 import { SideNavComponent } from './shared/side-nav/side-nav.component';
@@ -19,8 +18,7 @@ export const routes: Route[] = [
   declarations: [
     AppComponent,
     SideNavComponent,
-    HeaderComponent,
-    Parallax
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
