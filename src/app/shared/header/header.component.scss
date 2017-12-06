@@ -1,9 +1,12 @@
+$color: #75b99a;
+
 .header {
     display: flex;
     height: 65px;
-    background-color: #75b9aa;
+    background-color: $color;
 
     .icon {
+        padding-right: 1%;
         .menu-icon {
             color: #fffbbd;
             font-size: 40px;
@@ -12,6 +15,9 @@
             &:hover {
                 color: #634338;
             }
+        }
+        &:hover {
+            background-color: darken($color,15%);
         }
     }
 }
