@@ -5,7 +5,6 @@ import { NgModule } from '@angular/core';
 import { MatIconModule, MatSidenavModule, MatListModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
-import { SideNavComponent } from './shared/side-nav/side-nav.component';
 import { HeaderComponent } from './shared/header/header.component';
 
 export const routes: Route[] = [
@@ -17,7 +16,6 @@ export const routes: Route[] = [
 @NgModule({
   declarations: [
     AppComponent,
-    SideNavComponent,
     HeaderComponent
   ],
   imports: [

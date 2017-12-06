@@ -2,4 +2,16 @@
     display: flex;
     height: 65px;
     background-color: #75b9aa;
+
+    .icon {
+        .menu-icon {
+            color: #fffbbd;
+            font-size: 40px;
+            margin: 10px 10px;
+            cursor: pointer;
+            &:hover {
+                color: #634338;
+            }
+        }
+    }
 }
