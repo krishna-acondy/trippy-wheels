@@ -18,6 +18,10 @@
         .sidenav-item {
             color: #fffbbd;
             font-size: larger;
+
+            &:hover {
+                color: #634338;
+            }
         }
     }
 
