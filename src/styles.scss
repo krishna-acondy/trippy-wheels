@@ -1,16 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+@font-face {
+    font-family: jaime-blues;
+    src: url('assets/jaime-blues.ttf');
+}
+
+@font-face {
+    font-family: vertical-brushy;
+    src: url('assets/vertical-brushy.otf');
+}
+
+* {
+    font-family: beautiful-creatures;
+}
+
+
 html {
     height: 100%;
 }
 body {
-    height: 100%;
+    font-family: jaime-blues;
     margin: 0;
-    overflow-y: hidden;
-    // background-repeat: no-repeat;
-    // background-attachment: fixed;
-    // background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
 }
 
 body, a, h1, h2, h3, h4, h5, p {

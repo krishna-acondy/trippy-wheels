@@ -1,22 +1,26 @@
-$color: #75b9aa;
+$color: #6d4836;
 
 .header {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
     height: 65px;
     background-color: $color;
 
-    .icon {
-        .menu-icon {
+    .menu-options {
+        margin-right: 1vw;
+        a {
+            text-decoration: none;
+            font-family: jaime-blues;
+            font-size: 36px;
             color: #fffbbd;
-            font-size: 40px;
-            margin: 10px 10px;
-            cursor: pointer;
+            padding: 5px 15px;
+
             &:hover {
-                color: #634338;
+                color: #f17f1d;
             }
-        }
-        &:hover {
-            background-color: darken($color,15%);
+
         }
     }
 }

@@ -1,31 +1,31 @@
 .logo {
     width: 100%;
 }
+.content {
+    padding: 1%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
 
-.main-content {
-    height: 100%;
-    box-sizing: border-box;
-    position: relative;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    overflow-y: auto;
-
-    .sidenav {
-        width: 35vw;
-        background-color: #f8a23d;
-
-        .sidenav-item {
-            color: #fffbbd;
-            font-size: larger;
-
-            &:hover {
-                color: #634338;
-            }
-        }
+    .description {
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 70vw;
     }
 
-    .content {
-        padding: 1%;
+    .heading {
+        font-family: jaime-blues;
+        font-size: 80px;
+        color: #f17f1d;
+    }
+
+    p {
+        font-family: vertical-brushy;
+        font-size: 36px;
+        color: #75b9aa;
+        padding: 3%;
     }
 }
