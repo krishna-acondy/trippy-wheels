@@ -1,5 +1,10 @@
 $color: #6d4836;
 
+:host {
+    position: fixed;
+    width: 100vw;
+}
+
 .header {
     display: flex;
     flex-direction: row;

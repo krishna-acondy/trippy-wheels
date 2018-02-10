@@ -14,6 +14,11 @@
         justify-content: center;
         flex-direction: column;
         width: 70vw;
+        padding-top: 65px;
+
+        img {
+            width: 60%;
+        }
     }
 
     .heading {
@@ -25,7 +30,6 @@
     p {
         font-family: vertical-brushy;
         font-size: 36px;
-        color: #75b9aa;
-        padding: 3%;
+        color: #6ca89a;
     }
 }
