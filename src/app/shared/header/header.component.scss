@@ -1,11 +1,8 @@
 $color: #6d4836;
 
-:host {
+.header {
     position: fixed;
     width: 100vw;
-}
-
-.header {
     display: flex;
     flex-direction: row;
     align-items: center;

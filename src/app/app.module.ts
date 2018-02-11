@@ -3,6 +3,7 @@ import { RouterModule, Route } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MatIconModule, MatSidenavModule, MatListModule } from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -21,6 +22,7 @@ export const routes: Route[] = [
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FlexLayoutModule,
     RouterModule.forRoot(routes),
     MatSidenavModule,
     MatListModule,

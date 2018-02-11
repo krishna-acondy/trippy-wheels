@@ -2,7 +2,6 @@
     width: 100%;
 }
 .content {
-    padding: 1%;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -14,7 +13,6 @@
         justify-content: center;
         flex-direction: column;
         width: 70vw;
-        padding-top: 65px;
 
         img {
             width: 50%;
@@ -31,5 +29,70 @@
         font-family: vertical-brushy;
         font-size: 36px;
         color: #6ca89a;
+    }
+}
+
+
+// Header
+
+$color: #6d4836;
+
+.header {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 65px;
+    background-color: $color;
+
+    .hamburger-menu {
+
+        padding-right: 25px;
+        color: #fffbbd;
+
+        mat-icon {
+            font-size: 36px;
+        }
+
+        &:hover {
+            color: #f17f1d;
+        }
+    }
+
+    .menu-options {
+        margin-right: 1vw;
+        a {
+            text-decoration: none;
+            font-family: jaime-blues;
+            font-size: 36px;
+            color: #fffbbd;
+            padding: 5px 15px;
+
+            &:hover {
+                color: #f17f1d;
+            }
+        }
+    }
+}
+
+.sidenav {
+    width: 35vw;
+    background-color: #504f4f;
+
+    .sidenav-item {
+        color: #fffbbd;
+        font-size: 36px;
+        font-family: jaime-blues;
+        text-decoration: none;
+        padding: 5px;
+
+        &:first-child {
+            padding-top: 15px;
+        }
+
+        &:hover {
+            color: #f17f1d;
+        }
     }
 }
