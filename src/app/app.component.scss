@@ -21,13 +21,13 @@
 
     .heading {
         font-family: jaime-blues;
-        font-size: 80px;
+        font-size: 3em;
         color: #f17f1d;
     }
 
     p {
         font-family: vertical-brushy;
-        font-size: 36px;
+        font-size: 1em;
         color: #6ca89a;
     }
 }
@@ -52,7 +52,7 @@ $color: #6d4836;
         color: #fffbbd;
 
         mat-icon {
-            font-size: 36px;
+            font-size: 2em;
         }
 
         &:hover {
@@ -65,7 +65,7 @@ $color: #6d4836;
         a {
             text-decoration: none;
             font-family: jaime-blues;
-            font-size: 36px;
+            font-size: 2em;
             color: #fffbbd;
             padding: 5px 15px;
 
@@ -82,7 +82,7 @@ $color: #6d4836;
 
     .sidenav-item {
         color: #fffbbd;
-        font-size: 36px;
+        font-size: 2em;
         font-family: jaime-blues;
         text-decoration: none;
         padding: 5px;
