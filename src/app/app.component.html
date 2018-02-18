@@ -6,16 +6,16 @@
         <a href="#contact" class="option">Contact</a>
     </div>
     <div fxShow="true" fxHide.gt-sm="true">
-        <a href="#" class="hamburger-menu" (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></a>
+        <a class="hamburger-menu" (click)="sidenav.toggle(); return false;"><mat-icon>menu</mat-icon></a>
     </div>
 </div>
 <mat-sidenav-container fxFlexFill class="example-container">
     <mat-sidenav fxLayout="column" mode="side" class="sidenav" #sidenav>
         <div fxLayout="column">
-        <a (click)="sidenav.toggle()" href="#about-us" class="sidenav-item">About Us</a>
-        <a (click)="sidenav.toggle()" href="#caravans" class="sidenav-item">Caravans</a>
-        <a (click)="sidenav.toggle()" href="#base-camps" class="sidenav-item">Base Camps</a>
-        <a (click)="sidenav.toggle()" href="#contact" class="sidenav-item">Contact</a>
+        <a (click)="sidenav.toggle(); return false;" href="#about-us" class="sidenav-item">About Us</a>
+        <a (click)="sidenav.toggle(); return false;" href="#caravans" class="sidenav-item">Caravans</a>
+        <a (click)="sidenav.toggle(); return false;" href="#base-camps" class="sidenav-item">Base Camps</a>
+        <a (click)="sidenav.toggle(); return false;" href="#contact" class="sidenav-item">Contact</a>
         </div>
     </mat-sidenav>
     <mat-sidenav-content fxFlexFill>
