@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MatIconModule, MatSidenavModule, MatListModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { NgxImageGalleryModule } from 'ngx-image-gallery';
+import {SlideshowModule} from 'ng-simple-slideshow';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -26,7 +28,9 @@ export const routes: Route[] = [
     RouterModule.forRoot(routes),
     MatSidenavModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    NgxImageGalleryModule,
+    SlideshowModule
   ],
   providers: [],
   bootstrap: [AppComponent]

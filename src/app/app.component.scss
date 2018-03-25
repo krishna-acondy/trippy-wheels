@@ -1,6 +1,11 @@
 .logo {
     width: 100%;
 }
+
+slideshow {
+    height: 90vh;
+}
+
 .content {
     font-size: 20px;
     display: flex;
@@ -29,6 +34,12 @@
         font-family: vertical-brushy;
         font-size: 1em;
         color: #6ca89a;
+    }
+
+    a {
+        font-family: vertical-brushy;
+        font-size: 1em;
+        color: #f17f1d;
     }
 }
 
